@@ -10,6 +10,7 @@ namespace DevTeachWeb.Controllers
     {
         public ActionResult Index()
         {
+            throw new Exception("Oh Snap!");
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             return View();
         }
